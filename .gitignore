@@ -1,5 +1,45 @@
-# Object file
-*.o
 
-# Ada Library Information
-*.ali
+public class Practice {
+
+	public static void main(String[] args) {
+		/* Display three messages
+		 */
+		
+		System.out.println("Welcome To Java");
+		System.out.println("Welcome To Computer Science");
+		System.out.println("Programming Is Fun");
+		
+		/* Display five messages
+		 */
+		System.out.println();
+		System.out.println("Welcome To Java");
+		System.out.println("Welcome To Java");
+		System.out.println("Welcome To Java");
+		System.out.println("Welcome To Java");
+		System.out.println("Welcome To Java");
+		
+		/* Display the pattern
+		 */
+		System.out.println();
+		System.out.println("    J   A  V     V  A");
+		System.out.println("    J  A A  V   V  A A  ");
+		System.out.println("J   J AAAAA  V V  AAAAA ");
+		System.out.println(" J J A     A  V  A     A ");
+		
+		/* Print a table
+		 */
+		System.out.println();
+		System.out.println("a  a^2  a^3");
+		System.out.println("1   1   1");
+		System.out.println("2   4   8");
+		System.out.println("3   9   27");
+		System.out.println("4   16  64");
+		
+		
+	
+		
+		
+
+	}
+
+}
