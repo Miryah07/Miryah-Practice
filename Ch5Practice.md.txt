@@ -1,0 +1,33 @@
+public class Ch5Practice {
+    
+public static void main(String args[]) {
+        
+        
+
+int count = 0;
+       
+
+while (count < 100)
+            
+System.out.println("Welcome to Java");
+            
+count++;
+       
+ }
+    
+}
+    
+// The loop checks whether count < 100 is true.
+    
+// It repeatedly executes the loop body until count < 100 becomes false.
+    
+//When count < 100 is false (count reaches 100), the loop terminates, and
+    
+// the next statement after the loop statement is executed.
+    
+    
+
+// Java provides three types of loop statements;
+    
+// While loops, Do-while loops, and for loops.
+    
