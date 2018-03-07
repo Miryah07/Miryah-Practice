@@ -1,0 +1,43 @@
+public class MyClass {
+    
+public static void main(String args[]) {
+      
+
+int randomnum = 65 + (int)(Math.random() * (91 - 65));
+      
+     
+
+char letter;
+      
+int lowerBound = 65;
+      
+int upperBound = 90;
+      
+int guessedNum = 65;
+      
+      
+
+for (int i = lowerBound; i <= upperBound; i ++) {
+          
+          
+
+while (randomnum != i){
+            
+randomnum = 65 + (int)(Math.random() * (91 - 65)); 
+         
+ }
+         
+          
+
+System.out.println((char)randomnum + ", ");
+         
+         
+
+System.out.println();
+         
+     
+  }
+   
+ }
+
+}
