@@ -1,0 +1,46 @@
+public class Ch5Practice {
+   
+
+public static void main(String args[]) {
+        
+       
+
+int sum = 0, i = 1;
+       
+while (i < 10) {
+           
+sum = sum + i;
+           
+i++;
+       
+    
+
+System.out.println("sum is " + sum);
+  
+
+  }
+    
+ }
+
+}
+    
+    //sum is 45 
+    
+    
+
+/* If i < 10 is true, the program adds i to sum.
+    
+* Variable i is initally set to 1, then is 
+    
+* incremented to 2,3, and up to 10.
+    
+* When i is 10, i < 10 is false, so loop exits.
+    
+* Therefore, the sum is 1+2+3+4+5+6+7+8+9 = 45.
+    
+* This loop is infinte, because i is always 1 and
+    
+* i < 10 will always be true.
+    
+*/
+    
