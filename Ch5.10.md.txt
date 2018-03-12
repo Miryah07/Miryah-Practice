@@ -1,56 +1,22 @@
-public class MyClass {
-    
 
-public static void main(String args[]) {
- 
- 
-/* (Find numbers divisible by 5 and 6). 
- 
-Write a program that displays all the mumbers
- 
-from 100 to 1,000(10per line) that are divisible
- 
-by 5 and 6. Numbers are separated by exactly one space.
+public class Ch5A {
 
- */
- 
- 
- 
-
-System.out.println("  Numbers divided 5 and 6");
- 
- 
-
-System.out.print("    ");
- 
-for (int a = 1; a <= 10 ; a++)
- 
-System.out.print("  " + a);
-
- 
- 
-System.out.println("\n -----------------------------------");
- 
- 
-for (int b = 1; b <= 10; b++) {
-     
-System.out.print(b + " | ");
-     
-for (int a = 1; a <= 10; a++) {
-         
-      
-
-System.out.printf("%4d", a / b);
-    
- }
-     
-System.out.println();
- 
- }
-     
-    
- 
- }
-    
+	public static void main(String[] args) {
+		
+		System.out.println("Hello World");
+		int primeCounter = 1;
+		for (int testCase = 100;
+				 testCase < 1000;
+				 testCase = testCase + 1){
+		if(testCase %5 ==0 && testCase % 6 ==0){
+			System.out.println(testCase + ", ");
+			primeCounter = primeCounter +1;
+			if(primeCounter%10 ==0);
+			
+			
+	}
+	
+		}
+	}
 
 }
