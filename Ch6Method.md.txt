@@ -1,0 +1,33 @@
+
+public class Methods {
+
+	public static void main(String[] args) {
+
+		int integer = 5;
+		int notinteger = 3;
+		double floatValue = 5.0;
+		
+
+
+		System.out.println("This is in the main mathod");
+		RyahPrintStatement(integer, floatValue);
+		System.out.println("This is back inside the main method");
+
+		System.out.println(notinteger);
+		RyahPrintStatement();
+		RyahPrintStatement(integer, floatValue);
+	
+	}
+	private static void RyahPrintStatement() {
+		System.out.println("This is inside the blank method");
+	}
+	private static void RyahPrintStatement(int notinteger, double flaotValue) {
+
+
+		System.out.println("This is inside my method");
+
+		notinteger += 5;
+		System.out.println(notinteger);
+	}
+
+}
