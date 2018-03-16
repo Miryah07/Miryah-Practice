@@ -23,6 +23,8 @@ public class Ch5 {
 				} else {
 					System.out.println("No match for " + limit);
 					limit = limit + 1;
+					
+					System.out.println();
 
 				}
 			}
